@@ -26,18 +26,18 @@ ForoApp is a backend application built with Spring Boot. The application manages
 
 2. Navigate to the project directory
   ```bash
-   git clone https://github.com/your_username/foroApp.git
+  git clone https://github.com/your_username/foroApp.git
   ```
 3. Configure the database in application.properties
- ```bash
+    ```bash
     spring.datasource.url=jdbc:postgresql://localhost:5432/foroApp
     spring.datasource.username=your_username
     spring.datasource.password=your_password
-  ```
+     ```
 4. Compile and run the application
-   ```bash
-    mvn clean install mvn spring-boot:run
-   ```
+      ```bash
+      mvn clean install mvn spring-boot:run
+      ```
 
 ## Main Dependencies
 
@@ -54,7 +54,7 @@ ForoApp is a backend application built with Spring Boot. The application manages
 You can access the application at http://localhost:8080. The application exposes several endpoints to manage topics, users, profiles, responses, and courses.
 
 ## Project Structure
-
+```bash
 src/
 ├── main/
 │   ├── java/
@@ -77,4 +77,4 @@ src/
         └── com/
             └── foroApp/
                 └── ...
-
+```
