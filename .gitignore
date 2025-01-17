@@ -34,3 +34,5 @@ build/
 
 ## logs ## 
 *.log
+application.log.*.gz
+
